@@ -3,7 +3,7 @@ EVA Data Update Travel Model Indicators
 DRC: Clint Chiavarini, Joe Gordon
 Modeling: Kyle Hauger
 
-Indicators 1-3, workers within 30 minutes
+Indicators 1-3, workers within 30 minutes (ensemble gv)
 Methodology:
 DRC Responsibility: provide modelers with census tract number of workers in each category.  Data table will have both the census tract number and the representative TAZ.
 Modeling responsibility: calculate the total number of workers within 30 minutes (all modes) for each census tract/TAZ. 
@@ -15,7 +15,8 @@ TAZs: All TAZs that represent Tracts (from and to)
 3.	Total_High_Skill_Workers_within_30_mins
 4.	Total_Med_Skill_Workers_within_30_mins
 5.	Total_Low_Skill_Workers_within_30_mins
-Indicator 4, travel time to PDX
+   
+Indicator 4, travel time to PDX (ensemble gs)
 Average travel time to PDX airport
 DRC Responsibility: provide modelers with a list of representative TAZ for each tract
 Modeling responsibility: calculate the travel times to/from each tract-representative TAZ to PDX (TAZ 139) 
@@ -34,7 +35,8 @@ Output: table with the following columns:
 2.	FIPS (Tracts)
 3.	One column for each time period listed above
 DRC will average all six time periods for each tract for inclusion in EVA.
-Indicator 5, Transit access to jobs
+
+Indicator 5, Transit access to jobs (ensemble gr)
 Transit Access to Jobs (minutes)
 Measures transit travel times during peak hours to major employers and job centers
 DRC Responsibility: provide modelers with a list of representative TAZ for each census tract
@@ -49,7 +51,8 @@ Output: Table with the following columns:
 1.	TAZ
 2.	FIPS (Tracts)
 3.	Travel time (minutes) to each "jobs" TAZ or an average of all of them.
-Indicators 6-7, jobs within 30 minutes
+
+Indicators 6-7, jobs within 30 minutes (ensemble gv)
 Methodology:
 DRC Responsibility: provide modelers with census tract number of jobs in each category.  Data table will have both the census tract number and the representative TAZ.
 Modeling responsibility: calculate the total number of jobs within 30 minutes (all modes) for each census tract/TAZ. 
@@ -60,7 +63,8 @@ TAZs: All TAZs that represent Tracts (from and to)
 2.	FIPS (Tracts)
 3.	Total_low_wage_jobs_within_30_mins
 4.	Total_mid_high_wage_jobs_within_30_mins
-Indicator 8, Travel in/out of the region
+
+Indicator 8, Travel in/out of the region (ensemble gt)
 Average auto travel time in/out of 4-County region (minutes)
 Measures how quickly goods and people can get to and from major exit and entry points of the region (highways)
 DRC Responsibility: provide modelers with a list of representative TAZ for each census tract
